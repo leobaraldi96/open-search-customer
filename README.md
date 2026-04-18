@@ -82,7 +82,7 @@ Actualmente, el sistema funciona bajo un esquema de **copiar y pegar**:
 
 ## 🚀 Próximamente: Automatización Total con Gemini API
 
-Estoy trabajando en una versión **Full Auto** que eliminará el paso de copiar y pegar. Esta actualización utilizará la **API de Google Gemini** para consumir tokens directamente desde el servidor.
+Estoy trabajando en una versión **Full Auto** que eliminará el paso de copiar y pegar. Esta actualización utilizará la **API de Google Gemini, Claude o ChatGPT** para consumir tokens directamente desde el servidor.
 
 Esta versión está pensada para usuarios que:
 - Cuentan con una API Key con créditos.
