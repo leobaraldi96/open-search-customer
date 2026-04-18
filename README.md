@@ -29,6 +29,13 @@ El proyecto está dividido en tres componentes principales:
 - **Backend:** API en FastAPI (Python) que orquesta la base de datos y la lógica de negocio.
 - **Worker Node:** Motor de scraping basado en Playwright para navegación real y extracción de datos.
 
+### 🔄 Flujo de Trabajo
+1. El usuario solicita un scouting desde el **Frontend**.
+2. El **Backend** registra la solicitud y delega la tarea al **Worker**.
+3. El **Worker** abre un navegador real, audita el sitio y extrae WHOIS/Performance.
+4. El **Backend** procesa los resultados y genera el "Prompt Maestro" con IA.
+5. El **Frontend** visualiza la auditoría lista para la venta.
+
 ---
 
 ## 🚀 Inicio Rápido
@@ -63,8 +70,10 @@ Este script iniciará automáticamente el Backend, el Worker y el Frontend.
 
 ## 📄 Documentación
 
-- **[SETUP.md](./SETUP.md)** - Manual de instalación paso a paso.
-- **[Docs Folder](./docs/)** - Documentación técnica adicional.
+- **[SETUP.md](./SETUP.md)** - Guía maestra de instalación y variables de entorno.
+- **[Estructura SQL](./docs/setup/database_structure.sql)** - Script para inicializar la base de datos en MySQL/XAMPP.
+- **[Arquitectura Detallada](./docs/architecture.md)** - Explicación profunda del diseño del sistema.
+- **[Reglas de Oro](./docs/reglas_de_oro.md)** - Principios de desarrollo seguidos en este proyecto.
 
 ---
 
