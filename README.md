@@ -58,6 +58,39 @@ Este script iniciará automáticamente el Backend, el Worker y el Frontend.
 
 ---
 
+## 🧠 El Corazón del Sistema: El Prompt Maestro
+
+La potencia de esta herramienta no está solo en los datos, sino en cómo se le presentan a la Inteligencia Artificial.
+
+### 📍 Localización y Estructura
+Toda la lógica de persuasión reside en el archivo:
+**`backend/core/prompts.py`**
+
+Aquí es donde se construye el "Prompt Maestro". Este archivo contiene plantillas blindadas que toman los datos crudos de la auditoría (WHOIS, SEO, Performance) y los transforman en una estructura narrativa lógica que la IA puede entender sin "alucinar".
+
+### 📋 Cómo usarlo (Método Actual)
+Actualmente, el sistema funciona bajo un esquema de **copiar y pegar**:
+1. Tras realizar una auditoría, el sistema genera un prompt denso y detallado.
+2. Copias ese prompt desde el dashboard.
+3. Lo pegas en tu chat de IA favorito (ChatGPT, Gemini, Claude).
+4. La IA genera un speech de venta, un correo técnico o una propuesta completa basada en evidencia real.
+
+> [!TIP]
+> **Iteración Infinita:** El archivo `prompts.py` es totalmente maleable. Puedes editar las plantillas para adecuarlas a cualquier nicho de negocio, tono de voz o servicio específico que ofrezcas.
+
+---
+
+## 🚀 Próximamente: Automatización Total con Gemini API
+
+Estoy trabajando en una versión **Full Auto** que eliminará el paso de copiar y pegar. Esta actualización utilizará la **API de Google Gemini** para consumir tokens directamente desde el servidor.
+
+Esta versión está pensada para usuarios que:
+- Cuentan con una API Key con créditos.
+- Buscan automatizar la generación de cientos de propuestas en minutos.
+- Quieren integrar el speech final directamente en su flujo de CRM.
+
+---
+
 ## 📈 Roadmap y Funcionalidades
 
 - [x] Importación Mágica desde Google Maps ✨.
