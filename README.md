@@ -8,6 +8,10 @@
 ![Engine](https://img.shields.io/badge/engine-playwright-orange)
 ![Audit](https://img.shields.io/badge/audit-deep-red)
 
+<p align="center">
+  <video src="docs/assets/demo.webm" width="100%" controls autoplay loop muted></video>
+</p>
+
 ---
 
 ## 📌 Visión General
