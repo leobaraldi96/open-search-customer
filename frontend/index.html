@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Busca Clientes - CRM Orquestador</title>
     <link rel="stylesheet" href="./style.css">
     <!-- Google Fonts for modern typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div id="app">
         <header class="glass-header">
@@ -45,13 +49,16 @@
 
             <!-- Sidebar for Controls -->
             <aside class="glass-panel controls-panel">
-                <h2 style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--accent-indigo);">Prospección Estratégica</h2>
+                <h2 style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--accent-indigo);">Prospección
+                    Estratégica</h2>
                 <form id="prospectForm">
                     <div class="input-group">
                         <label for="maps-link" style="color: var(--accent-indigo);">🪄 Importación Inteligente</label>
                         <div style="display:flex; gap:8px;">
-                            <input type="text" id="maps-link" placeholder="Pegar link de Google Maps..." style="flex:1;" />
-                            <button type="button" id="magic-btn" class="magic-btn" title="Extraer datos mágicamente">✨</button>
+                            <input type="text" id="maps-link" placeholder="Pegar link de Google Maps..."
+                                style="flex:1;" />
+                            <button type="button" id="magic-btn" class="magic-btn"
+                                title="Extraer datos mágicamente">✨</button>
                         </div>
                     </div>
                     <div class="input-group">
@@ -83,9 +90,11 @@
 
             <!-- Main CRM Table -->
             <section class="glass-panel crm-panel">
-                <div class="crm-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1.5rem;">
+                <div class="crm-header" style="display:flex; justify-content:space-between; align-items:center;">
                     <h2 style="font-size: 1.1rem;">CRM de Prospección</h2>
-                    <span class="badge" id="leadCount" style="background: var(--bg-deep); padding: 4px 12px; border-radius: 20px; font-size: 0.875rem; font-weight: 800; border: 1px solid var(--glass-border);">0 leads</span>
+                    <span class="badge" id="leadCount"
+                        style="background: var(--bg-deep); padding: 4px 12px; border-radius: 20px; font-size: 0.875rem; font-weight: 800; border: 1px solid var(--glass-border);">0
+                        leads</span>
                 </div>
                 <div class="table-container">
                     <table id="leadsTable">
@@ -113,4 +122,5 @@
     </div>
     <script type="module" src="./main.js"></script>
 </body>
+
 </html>

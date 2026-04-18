@@ -80,6 +80,7 @@ h1 span {
 /* --- Layout --- */
 #app {
   padding: 1.5rem;
+  padding-top: 0;
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -88,14 +89,13 @@ h1 span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
   padding: 0.5rem 0;
 }
 
 .dashboard-grid {
   display: grid;
   grid-template-columns: 320px 1fr;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 /* --- Components --- */
@@ -115,14 +115,13 @@ h1 span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  margin-bottom: 1rem;
 }
 
 .metric-card {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), transparent);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-md);
-  padding: 1.25rem;
+  padding: .5rem 1.25rem;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
@@ -153,10 +152,8 @@ h1 span {
 .metric-label {
   font-size: 0.875rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
   color: var(--text-secondary);
   font-weight: 600;
-  margin-bottom: 0.5rem;
   display: block;
 }
 
@@ -176,44 +173,37 @@ h1 span {
 table {
   width: 100%;
   border-collapse: separate;
-  border-spacing: 0 8px;
+  border-spacing: 0 2px;
 }
 
 th {
   text-align: left;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   font-size: 0.875rem;
   text-transform: uppercase;
   color: var(--text-muted);
-  letter-spacing: 0.05em;
 }
 
 td {
   padding: 1.25rem 1rem;
   background: rgba(255, 255, 255, 0.02);
-  border-top: 1px solid var(--glass-border);
-  border-bottom: 1px solid var(--glass-border);
 }
 
 td:first-child {
   border-left: 1px solid var(--glass-border);
-  border-top-left-radius: var(--radius-md);
-  border-bottom-left-radius: var(--radius-md);
-}
-
-td:last-child {
-  border-right: 1px solid var(--glass-border);
-  border-top-right-radius: var(--radius-md);
-  border-bottom-right-radius: var(--radius-md);
 }
 
 tr:hover td {
   background: rgba(255, 255, 255, 0.04);
 }
 
+tr:hover td:first-child {
+  border-left: 1px solid var(--accent-indigo);
+}
+
 /* Forms */
 .input-group {
-  margin-bottom: 1.25rem;
+  margin-bottom: .75rem;
 }
 
 .input-group label {
@@ -363,12 +353,7 @@ input:focus {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  margin-top: 2rem;
-  padding: 1.5rem;
-  background: rgba(15, 23, 42, 0.3);
-  border: 1px solid var(--glass-border);
-  border-radius: 16px;
-  backdrop-filter: blur(10px);
+  margin-top: .5rem;
 }
 
 .pagination-btn {
@@ -450,9 +435,20 @@ input:focus {
 }
 
 @keyframes magic-pulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.1); opacity: 0.7; }
-  100% { transform: scale(1); opacity: 1; }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .loading-overlay {

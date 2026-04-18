@@ -10,7 +10,7 @@ const prospectForm = document.getElementById('prospectForm');
 
 // Estado Local (v4.7.0)
 let currentPage = 1;
-const LEADS_PER_PAGE = 6;
+const LEADS_PER_PAGE = 5;
 let allLeads = [];
 let currentLeadData = null; // Nivel 1: datos del lead activo en el modal
 
