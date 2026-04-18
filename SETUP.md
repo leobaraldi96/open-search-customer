@@ -7,10 +7,10 @@ Este proyecto está diseñado para ejecutarse localmente. Sigue estos pasos para
 ## 📋 Requisitos Previos
 
 Antes de empezar, asegúrate de tener instalado:
-- **Python 3.10+**
-- **Node.js 18+** y npm
-- **XAMPP** o un servidor MySQL/MariaDB local.
-- Una **Google API Key** (para Gemini y opcionalmente PageSpeed).
+- **[Python 3.10+](https://www.python.org/downloads/)** (Asegúrate de marcar "Add Python to PATH")
+- **[Node.js 18+](https://nodejs.org/)** (Recomendado: Versión LTS) y npm.
+- **[XAMPP](https://www.apachefriends.org/index.html)** o un servidor MySQL/MariaDB local.
+- Una **[Google API Key](https://aistudio.google.com/app/apikey)** (para Gemini y opcionalmente PageSpeed).
 
 ---
 
