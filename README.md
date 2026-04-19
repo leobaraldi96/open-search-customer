@@ -10,9 +10,9 @@
 
 <p align="center">
   <video width="100%" controls autoplay loop muted>
-    <source src="./docs/assets/demo.webm" type="video/webm">
+    <source src="https://github.com/leobaraldi96/open-search-customer/raw/main/docs/assets/demo.webm" type="video/webm">
     Tu navegador no soporta el formato de video. 
-    <a href="./docs/assets/demo.webm">Haz clic aquí para ver el video directamente.</a>
+    <a href="https://github.com/leobaraldi96/open-search-customer/raw/main/docs/assets/demo.webm">Haz clic aquí para ver el video directamente.</a>
   </video>
 </p>
 
