@@ -8,13 +8,8 @@
 ![Engine](https://img.shields.io/badge/engine-playwright-orange)
 ![Audit](https://img.shields.io/badge/audit-deep-red)
 
-<p align="center">
-  <video width="100%" controls autoplay loop muted>
-    <source src="https://github.com/leobaraldi96/open-search-customer/raw/main/docs/assets/demo.webm" type="video/webm">
-    Tu navegador no soporta el formato de video. 
-    <a href="https://github.com/leobaraldi96/open-search-customer/raw/main/docs/assets/demo.webm">Haz clic aquí para ver el video directamente.</a>
-  </video>
-</p>
+[Busca-Clientes---CRM-Orquestador.webm](https://github.com/user-attachments/assets/1da798fc-01f5-4969-a61a-535f5c5b49c5)
+
 
 ---
 
